@@ -10,6 +10,19 @@ public class User {
 
     public  User() {
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "nickName='" + nickName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", birthYear=" + birthYear +
+                ", yourMale='" + yourMale + '\'' +
+                ", whereareyoufrom='" + whereareyoufrom + '\'' +
+                '}';
+    }
+
     public String getNickName() { return nickName; }
 
     public void setNickName(String nickname) {this.nickName = nickname;}
